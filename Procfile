@@ -1,1 +1,1 @@
-web: npm build watch
+web: yarn serve

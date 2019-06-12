@@ -6,6 +6,7 @@
     "dependencies": {
         "chart.js": "^2.8.0",
         "d3": "^5.9.2",
+        "heroku": "^7.25.0",
         "lwc-services": "^1.2.0",
         "moment": "^2.24.0"
     },
