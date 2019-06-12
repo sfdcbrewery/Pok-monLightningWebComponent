@@ -13,8 +13,8 @@ If you want to deploy LWC Recipes Open Source to Heroku - there's a button for t
 1. Clone the `lwc-recipes-oss` repository:
 
 ```
-git clone https://github.com/trailheadapps/lwc-recipes-oss
-cd lwc-recipes-oss
+git clone https://github.com/sfdcbrewery/Pok-monLightningWebComponent/
+cd Pok-monLightningWebComponent
 ```
 
 2. Install the project dependencies using `yarn` (or `npm`, if you prefer that alternatively)
