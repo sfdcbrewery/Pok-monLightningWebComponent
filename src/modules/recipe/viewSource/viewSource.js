@@ -7,6 +7,6 @@ export default class ViewSource extends LightningElement {
     @api source;
 
     get sourceURL() {
-        return this.baseURL + this.source;
+        return 'https://github.com/sfdcbrewery/Pok-monLightningWebComponent';
     }
 }
