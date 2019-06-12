@@ -18,7 +18,7 @@
                     </template>
                 </ul>
             </template>
-            <template if:true={error}>
+            <template if:false={pokemons}>
                 <recipe-error-panel errors={error}></recipe-error-panel>
             </template>
         </div>

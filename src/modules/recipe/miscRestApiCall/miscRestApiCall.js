@@ -11,7 +11,7 @@ export default class MiscRestCall extends LightningElement {
     
     
     handleSearchKeyChange(event) {
-        this.searchKey = event.target.value;
+        this.searchKey = event.target.value.toLowerCase();
     }
 
     handleSearchClick() {
