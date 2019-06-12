@@ -1,9 +1,9 @@
 <template>
-    <ui-card title="Gotta Catch 'Em All">
+    <ui-card title="Gotta Catch 'Em All - Search Pokémon powers">
         <div class="container">
             <img src="/resources/images/pokemon.png" x="0" y="0" height="150px" width="250px" />
             <div class="search">
-                <ui-input type="search" onchange={handleSearchKeyChange} label="Search Pokémon" value={searchKey}>
+                <ui-input type="search" onchange={handleSearchKeyChange} label="Type Pokémon Name" value={searchKey}>
                 </ui-input>
                 <p class="margin-vertical-small">
                     <ui-button label="Search" class="button" onclick={handleSearchClick}></ui-button>
