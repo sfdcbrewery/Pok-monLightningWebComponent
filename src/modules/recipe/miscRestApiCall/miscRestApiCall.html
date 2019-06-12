@@ -19,7 +19,9 @@
                 </ul>
             </template>
             <template if:false={pokemons}>
-                <recipe-error-panel errors={error}></recipe-error-panel>
+                <template if:true={error}>
+                    <recipe-error-panel errors={error}></recipe-error-panel>
+                </template>
             </template>
         </div>
 
