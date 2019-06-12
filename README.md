@@ -10,7 +10,7 @@ If you want to deploy LWC Recipes Open Source to Heroku - there's a button for t
 
 ## Local Development
 
-1. Clone the `lwc-recipes-oss` repository:
+1. Clone the `Pok-monLightningWebComponent` repository:
 
 ```
 git clone https://github.com/sfdcbrewery/Pok-monLightningWebComponent/
